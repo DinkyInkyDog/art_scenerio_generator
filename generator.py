@@ -9,8 +9,10 @@ num_scenerios = len(default_scenerios)
 import random
 character_one = random.randint(0, num_characters)
 character_two = random.randint(0, num_characters)
-scenerio = random.randit(0, num_scenerios)
+scenerio = random.randint(0, num_scenerios)
 
+if character_one == character_two:
+    character_one = random.randint(0, num_characters)
 
 
 #final product for default gen
