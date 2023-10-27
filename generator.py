@@ -7,8 +7,12 @@ num_characters = len(default_characters)
 num_scenerios = len(default_scenerios)
 
 import random
+character_one = random.randint(0, num_characters)
+character_two = random.randint(0, num_characters)
+scenerio = random.randit(0, num_scenerios)
 
 
-#final product
+
+#final product for default gen
 print("imagine that...")
-print(character_one, scenerio, character_two)
+print(default_characters[character_one], default_scenerios[scenerio], default_characters[character_two])
